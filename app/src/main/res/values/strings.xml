@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Realtime Call Transcription</string>
+    <string name="device_description">Realtime Call Transcription is used to transcribe calls.</string>
+    <string name="device_admin_label">Realtime Call Transcription Admin</string>
+    <string name="accessibility_service_description">Realtime Call Transcription Accessibility service for transcription.</string>
+    <string name="accessibility_service_label">Realtime Call Transcription Accessibility Service</string>
+</resources>
