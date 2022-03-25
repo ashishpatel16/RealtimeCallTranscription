@@ -1,10 +1,13 @@
 ## Sample Android Application for Azure Speech SDK troubleshooting
 
-* Clone this repo and update Constants.SpeechSubscriptionKey with your subscription key.
+* Clone this repo and update `Constants.SpeechSubscriptionKey` with your subscription key.
 * Build the APK and install on android 10/11.
 * Allow permissions, allow it to be the device admin app and enable accessibility service.
 * Get an incoming call and check logs under the tag `RecorderService`
 * Note : Uninstalling the app requires the user to **manually uncheck the app from device admin app list**.
+
+## Problem Faced
+* We have been unable to transcribe **incoming call audio** on android 10/11. However, it works perfectly on older versions. We have used AudioRecord instance for the audio source as suggested by the sdkdemo sample github repository (https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples/java/android/sdkdemo). 
 
 ## Below are some logs for a recent call
 
