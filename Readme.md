@@ -12,7 +12,8 @@
 ## Below are some logs for a recent call
 
 * Between **13.52.09** and **13.52.45** audio processing wasn't achieved even after enabling the loudspeaker on intended device.
-* **logs.txt** shows the entire stack trace as well.
+* **logs.txt** shows the entire stack trace when tested on android 11 - Unable to recognize audio.
+* **logs-working-on-android-8.1.txt** shows the entire stack trace when tested on android 8.1 - Working ideally as expected.
 
 ````
 2022-03-25 13:51:18.558 23340-23340/com.ashish.realtimecalltranscription D/RecorderService: onStartCommand: Started service...
